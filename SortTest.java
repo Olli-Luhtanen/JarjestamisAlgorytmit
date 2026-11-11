@@ -267,7 +267,7 @@ public class SortTest {
     }
 
     public static void main(String[] args) {
-        int size = 10000;
+        int size = 100000;
         int[] randomData = createRandomData(size);
         int[] accendingData = createAscendingData(size);
         int[] decendingData = createDescendingData(size);
