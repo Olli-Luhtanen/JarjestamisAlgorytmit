@@ -314,7 +314,7 @@ public class SortTest {
     }
 
     public static long SortMethodTester(FunctionPointer sorter, int[] original) {
-        for (int i = 0; i < 200; i++) sorter.signature(original.clone()); // warmup
+        for (int i = 0; i < 500; i++) sorter.signature(original.clone()); // warmup
 
         long[] t = new long[30];
         for (int i = 0; i < t.length; i++) {
